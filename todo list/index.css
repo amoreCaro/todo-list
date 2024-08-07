@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+    background-color: #F8F8FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.title {
+    text-align: center;
+    color: #62647E;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.input {
+    border: none;
+    width: 360px;
+    height: 48px;
+    background-color: #DFDFEF;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.button {
+    font-size: 20px;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 12px;
+    background-color: #6370F0;
+    color: #FCFBFD;
+    cursor: pointer;
+}
+
+.popup {
+}
+
+.todoItem {
+    font-size: 16px;
+    background-color: #fff;
+    width: 500px;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deleteBtn {
+    font-size: 14px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    color: #FCFBFD;
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
